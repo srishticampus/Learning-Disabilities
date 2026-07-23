@@ -315,12 +315,13 @@ const ParentNavbar = ({ homebg = {}, aboutBg = {}, profilebg = {}, navigateToPro
 
                     {/* Right side - Icons and User Menu */}
                     <Box display="flex" justifyContent="center" alignItems="center" sx={{ flexGrow: 0, gap: "30px" }}>
-                        {/* Chat Icon */}
+                        {/* Chat Icon - Hidden per request
                         <Tooltip title="Messages">
                             <Link to={'/parent/chat'}>
                                 <SmsOutlinedIcon color="primary" sx={{ height: '24px' }} />
                             </Link>
                         </Tooltip>
+                        */}
 
                         {/* Notifications */}
                         <Tooltip title="Notifications">
