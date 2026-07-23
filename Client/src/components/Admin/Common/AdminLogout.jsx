@@ -5,6 +5,7 @@ import Fade from '@mui/material/Fade';
 import Backdrop from '@mui/material/Backdrop';
 import CloseIcon from '@mui/icons-material/Close';
 import Divider from '@mui/material/Divider';
+import { toast } from 'react-toastify';
 
 const AdminLogout = ({openLogout,handleCloseLogout}) => {
     const style = {
