@@ -13,7 +13,7 @@ Server/node_modules/
 Server/dist/
 Server/build/
 Server/coverage/
-Server/.env
+# Server/.env
 
 # -------------------------
 # React (Client)
@@ -21,17 +21,17 @@ Client/node_modules/
 Client/build/
 Client/dist/
 Client/.cache/
-Client/.env
-Client/.env.local
-Client/.env.development.local
-Client/.env.test.local
-Client/.env.production.local
+# Client/.env
+# Client/.env.local
+# Client/.env.development.local
+# Client/.env.test.local
+# Client/.env.production.local
 
 # -------------------------
 # Common Environment Files
-.env
-.env.local
-.env.*.local
+# .env
+# .env.local
+# .env.*.local
 
 # -------------------------
 # Testing
